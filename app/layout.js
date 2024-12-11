@@ -10,9 +10,9 @@ import ScrollToTop from "./components/helper/scroll-to-top";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of GatorDev Agency - Software Developer",
+  title: "GatorDev Agency",
   description:
-    "This is the portfolio of GatorDev Agency. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "This is the GatorDev Software Development Agency. We are full stack developers and self-taught learners. We love to explore new things and are always open to collaborating with others. As quick learners, we continuously seek new challenges",
 };
 
 export default function RootLayout({ children }) {
