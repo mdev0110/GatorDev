@@ -11,7 +11,7 @@ import { SiLeetcode } from "react-icons/si";
 
 function HeroSection() {
   return (
-    <section className="relative flex flex-col items-center justify-between py-4 lg:py-12" id="hero">
+    <section className="relative flex flex-col items-center justify-center py-4 lg:py-12 min-h-[84vh] " id="hero">
       <Image
         src="/hero.svg"
         alt="Hero"
@@ -20,18 +20,17 @@ function HeroSection() {
         className="absolute -top-[98px] -z-10"
       />
 
-      <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
-        <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
-          <h1 className="text-4xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
+      <div className="grid grid-cols-1 items-start lg:grid-cols-1 lg:gap-10 gap-y-8">
+        <div className="order-2 flex flex-col items-center justify-center pb-20 md:pb-10 lg:pt-10">
+          <h1 className="text-6xl font-bold leading-20 text-white md:font-extrabold lg:text-[6.2rem] lg:leading-[6.0rem] text-center">
             {/* Hello, <br />
             This is {' '}
             <span className=" text-pink-500">{personalData.name}</span> */}
             {`We are Professional `}
-            <span className=" text-[#16f2b3]">{personalData.designation}</span>
-            .
+            <p className=" text-[#16f2b3]">{personalData.designation}</p>
           </h1>
 
-          <div className="my-12 flex items-center gap-5">
+          <div className="my-12 flex items-center gap-5 hidden">
             <Link
               href={personalData.github}
               target='_blank'
@@ -69,9 +68,9 @@ function HeroSection() {
             </Link>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 mt-8">
             <Link href="#contact" className="bg-gradient-to-r to-pink-500 from-violet-600 p-[1px] rounded-full transition-all duration-300 hover:from-pink-500 hover:to-violet-600">
-              <button className="px-3 text-xs md:px-8 py-3 md:py-4 bg-[#0d1224] rounded-full border-none text-center md:text-sm font-medium uppercase tracking-wider text-[#ffff] no-underline transition-all duration-200 ease-out  md:font-semibold flex items-center gap-1 hover:gap-3">
+              <button className="px-3 text-ms md:px-8 py-3 md:py-4 bg-[#0d1224] rounded-full border-none text-center md:text-sm font-medium uppercase tracking-wider text-[#ffff] no-underline transition-all duration-200 ease-out  md:font-semibold flex items-center gap-1 hover:gap-3">
                 <span>Contact US</span>
                 <RiContactsFill size={16} />
               </button>
@@ -179,11 +178,11 @@ function HeroSection() {
             </code>
           </div>
         </div> */}
-        <div className="flex justify-center order-1 lg:order-2">
+        <div className="flex justify-center order-1 ">
           <Image
             src={personalData.profile}
-            width={280}
-            height={280}
+            width={240}
+            height={240}
             alt="GatorDev Agency"
             className="rounded-lg transition-all duration-1000 hover:scale-110 cursor-pointer"
           />
