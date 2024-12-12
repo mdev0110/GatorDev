@@ -6,14 +6,17 @@ export const personalData = {
   // description: "We are senior software development agency. We are professional and enthusiastic programmers in our daily lives. We are quick learners with a self-learning attitude. We love to learn and explore new technologies and are passionate about problem-solving. We embrace almost all the stacks of web application development and are dedicated to making the web more open to the world. Our core skill is based on JavaScript, and we love to accomplish most tasks using it. We are available for any kind of job opportunity that suits our skills and interests.",
   description : [
     {
+      id : 1,
       title : "- Tell Us What You Need",
       description : "Need a website? Software? Maybe an app? Our company is well-equipped to craft successful digital solutions in every field imaginable. Our team of digital expertes are always here to listen, strategize, and offer feedback on how to streamline your business goals with our comprehensive services."
     },
     {
+      id : 2,
       title : "- We Get To Work While Keeping You Updated",
       description : "Communication is key to us. We'll keep you updated every step of the way with progress reports and welcome your feedback. Your satisfaction is our priority, so we're happy to make any adjustments you need to achieve the perfect outcome!"
     },
     {
+      id : 3,
       title : "- We Make It Happen – Simple and Fast",
       description : "We promise to deliver your results within your timeline – simple as that! Our swift actions will allow you can focus on running your business smoothly."
     },

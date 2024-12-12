@@ -17,7 +17,7 @@ function AboutSection() {
         <div className="order-2 lg:order-1">
           {
             personalData.description.map(item => (
-              <div class="mt-5">
+              <div class="mt-5" key={item.id}>
                 <p className="font-medium mb-2 text-[#98dfeb] text-2xl uppercase">
                   {item.title}
                 </p>
