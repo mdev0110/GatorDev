@@ -9,7 +9,7 @@ import experience from '/public/lottie/code.json';
 
 function Experience() {
   return (
-    <div id="experience" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
+    <div id="experience" className="relative z-50 border-t my-12 lg:m-24 border-[#25213b]">
       <Image
         src="/section.svg"
         alt="Hero"
@@ -29,7 +29,7 @@ function Experience() {
       </div>
 
       <div className="py-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-16">
           <div className="flex justify-center items-start">
             <div className="w-full h-full">
               {/* <AnimationLottie animationPath={experience} /> */}
