@@ -49,10 +49,10 @@ Eg:
 
 ```javascript
 export const personalData = {
-  name: "GatorDev Agency",
+  name: "GatorDevs Agency",
   profile: "/profile.png",
   designation: "Full-Stack Software Developer",
-  description: "My name is GatorDev Agency....",
+  description: "My name is GatorDevs Agency....",
   email: "abumdev0110@gmail.com",
   phone: "+8801608797655",
   address: "",

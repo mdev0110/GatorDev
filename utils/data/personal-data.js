@@ -1,7 +1,7 @@
 export const personalData = {
-  name: "GatorDev Agency",
+  name: "GatorDevs Agency",
   profile: '/profile.png',
-  designation: "GatorDev Agency",
+  designation: "GatorDevs Agency",
 
   // description: "We are senior software development agency. We are professional and enthusiastic programmers in our daily lives. We are quick learners with a self-learning attitude. We love to learn and explore new technologies and are passionate about problem-solving. We embrace almost all the stacks of web application development and are dedicated to making the web more open to the world. Our core skill is based on JavaScript, and we love to accomplish most tasks using it. We are available for any kind of job opportunity that suits our skills and interests.",
   description : [

@@ -10,7 +10,7 @@ function Navbar() {
           <Link
             href="/"
             className=" text-[#16f2b3] text-2xl font-bold">
-            GatorDev
+            GatorDevs
           </Link>
         </div>
 

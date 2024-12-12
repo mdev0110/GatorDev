@@ -107,7 +107,7 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">GatorDev Agency</span>
+                <span className="text-amber-300">GatorDevs Agency</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
@@ -183,7 +183,7 @@ function HeroSection() {
             src={personalData.profile}
             width={240}
             height={240}
-            alt="GatorDev Agency"
+            alt="GatorDevs Agency"
             className="rounded-lg transition-all duration-1000 hover:scale-110 cursor-pointer"
           />
         </div>
