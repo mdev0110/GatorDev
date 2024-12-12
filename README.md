@@ -1,83 +1,12 @@
-<p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
-</p>
+<!-- <p align="center" width="100%">
+    <img height="100" src="https://github.com/mdev0110/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
+</p> -->
 
 ---
 
-# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
+# [Built Portfolio With GitHub ](https://github.com/mdev0110/PersonalWebsite)
 
 ---
-
-# Developer Portfolio
-
-#### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
-
----
-
-# Demo :movie_camera:
-
-![](./public/image/screen.png)
-
-## View live preview [here](https://abusaid.netlify.app/).
-
----
-
-## Table of Contents :scroll:
-
-- [Sections](#sections-bookmark)
-- [Demo](#demo-movie_camera)
-- [Installation](#installation-arrow_down)
-- [Getting Started](#getting-started-dart)
-- [Usage](#usage-joystick)
-- [Deployment](#deployment-rocket)
-- [Tutorials](#tutorials-wrench)
-  - [Gmail App Password Setup](#gmail-app-password-setup)
-  - [Create a Telegram Bot](#create-a-telegram-bot)
-  - [Fetching Blog from dev.to](#fetching-blog-from-devto)
-- [Packages Used](#packages-used-package)
-
----
-
-# Sections :bookmark:
-
-- HERO SECTION
-- ABOUT ME
-- EXPERIENCE
-- SKILLS
-- PROJECTS
-- EDUCATION
-- BLOG
-- CONTACTS
-
----
-
-# Installation :arrow_down:
-
-### You will need to download Git and Node to run this project
-
-- [Git](https://git-scm.com/downloads)
-- [Node](https://nodejs.org/en/download/)
-
-#### Make sure you have the latest version of both Git and Node on your computer.
-
-```bash
-node --version
-git --version
-```
-
-## <br />
-
-# Getting Started :dart:
-
-### Fork and Clone the repo
-
-To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
-
-```bash
-git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
-
-cd developer-portfolio
-```
 
 ### Install packages from the root directory
 
@@ -114,7 +43,7 @@ GMAIL_PASSKEY =
 EMAIL_ADDRESS =
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
+### Then, Customize data in the `utils/data` [folder](https://github.com/mdev0110/developer-portfolio/tree/main/utils/data).
 
 Eg:
 
@@ -124,16 +53,16 @@ export const personalData = {
   profile: "/profile.png",
   designation: "Full-Stack Software Developer",
   description: "My name is GatorDev Agency....",
-  email: "abusaid7388@gmail.com",
+  email: "abumdev0110@gmail.com",
   phone: "+8801608797655",
-  address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
+  address: "",
+  github: "https://github.com/mdev0110",
   facebook: "https://www.facebook.com/abusaid.riyaz/",
   linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
+  twitter: "https://twitter.com/mdev0110",
   stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
   leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
+  devUsername: "mdev0110",
   resume: "...",
 };
 ```
