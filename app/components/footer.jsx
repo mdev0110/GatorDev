@@ -10,16 +10,16 @@ function Footer() {
         <div className="flex justify-center -z-40">
           <div className="absolute top-0 h-[1px] w-1/2  bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div>
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-between">
+        <div className="flex flex-col md:flex-row items-center justify-center">
           <p className="text-sm">
-            {/* © Developer Portfolio by <Link target="_blank" href="https://www.linkedin.com/in/abu-said-bd/" className="text-[#16f2b3]">GatorDevs Agency</Link> */}
-            © <span className="text-[#16f2b3]">GatorDevs Agency</span>
+            {/* © Developer Portfolio by <Link target="_blank" href="https://www.linkedin.com/in/abu-said-bd/" className="text-primary">GatorDevs Agency</Link> */}
+            © <span className="text-primary">GatorDevs Agency</span>
           </p>
           <div className="flex items-center gap-5 hidden">
             <Link
               target="_blank"
               href="https://github.com/mdev0110/developer-portfolio"
-              className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
+              className="flex items-center gap-2 uppercase hover:text-primary"
             >
               <IoStar />
               <span>Star</span>
@@ -27,7 +27,7 @@ function Footer() {
             <Link
               target="_blank"
               href="https://github.com/mdev0110/developer-portfolio/fork"
-              className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
+              className="flex items-center gap-2 uppercase hover:text-primary"
             >
               <CgGitFork />
               <span>Fork</span>

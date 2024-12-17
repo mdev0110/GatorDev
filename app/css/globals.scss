@@ -14,7 +14,35 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: #0d1224;
+  background-color: #0021A5;
+}
+
+.text-primary {
+  color: #FA4616;
+}
+
+
+.text-secondary {
+  color: #FA4616;
+}
+
+.bg-development-item {
+  --tw-bg-opacity: 1;
+  background-color: #082082;
+}
+
+.bg-skills-item {
+  --tw-bg-opacity: 1;
+  background-color: #0118553d;
+}
+
+.bg-text-input {
+  --tw-bg-opacity: 1;
+  background-color: #021d89;
+}
+
+.border-items {
+  border-color: #43559db3;
 }
 
 #sticky-card-1 {
