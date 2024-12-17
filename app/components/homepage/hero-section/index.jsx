@@ -178,7 +178,7 @@ function HeroSection() {
             </code>
           </div>
         </div> */}
-        <div className="flex justify-center order-1 ">
+        {/* <div className="flex justify-center order-1 ">
           <Image
             src={personalData.profile}
             width={240}
@@ -186,7 +186,7 @@ function HeroSection() {
             alt="GatorDevs Agency"
             className="rounded-lg transition-all duration-1000 hover:scale-110 cursor-pointer"
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );

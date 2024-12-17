@@ -59,7 +59,7 @@ function Experience() {
                           <BsPersonWorkspace size={36} />
                         </div>
                         <div>
-                          <p className="text-lg sm:text-2xl mb-2 font-medium uppercase text-[#eeffac]">
+                          <p className="text-lg sm:text-2xl mb-2 font-medium uppercase text-development-item">
                             {experience.title}
                           </p>
                           <p className="text-sm sm:text-base">

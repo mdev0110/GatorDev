@@ -14,13 +14,16 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: #0021A5;
+  background-color: #000410;
 }
 
 .text-primary {
   color: #FA4616;
 }
 
+.text-development-item {
+  color : #ffa600;
+}
 
 .text-secondary {
   color: #FA4616;
@@ -28,7 +31,7 @@ body {
 
 .bg-development-item {
   --tw-bg-opacity: 1;
-  background-color: #082082;
+  background-color: #1d043f05;
 }
 
 .bg-skills-item {
