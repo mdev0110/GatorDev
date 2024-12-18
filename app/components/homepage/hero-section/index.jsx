@@ -26,7 +26,7 @@ function HeroSection() {
             {/* Hello, <br />
             This is {' '}
             <span className=" text-pink-500">{personalData.name}</span> */}
-            {`We are Professional `}
+            {`iGatorx`}
             <p className=" text-primary">{personalData.designation}</p>
           </h1>
 
