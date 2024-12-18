@@ -30,7 +30,7 @@ function HeroSection() {
             <p className=" text-primary">{personalData.designation}</p>
           </h1>
 
-          <div className="my-12 flex items-center gap-5 hidden">
+          <div className="my-12 flex items-center gap-5">
             <Link
               href={personalData.github}
               target='_blank'
