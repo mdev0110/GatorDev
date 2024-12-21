@@ -1,5 +1,5 @@
 export const personalData = {
-  name: "iGator Software Solutions",
+  name: "MORGAN Software Solutions",
   profile: '/profile.png',
   designation: "Software Solutions",
 
